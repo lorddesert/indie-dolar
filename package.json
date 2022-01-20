@@ -1,0 +1,12 @@
+{
+  "name": "indie-dolar",
+  "version": "1.0.0",
+  "description": "A little app to see the Dolar price in Argentina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

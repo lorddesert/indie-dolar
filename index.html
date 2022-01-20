@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Indie dolar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script type="module" src="./index.js"></script>
+
+    <style>
+
+      body {
+        min-height: 100vh;
+      }
+      section {
+        display: grid;
+        grid-template-rows: 1fr 150px;
+      }
+
+      .myRow {
+        height: 100%;
+      }
+    </style>
+</head>
+<body>
+<section>
+    <div class="myRow container content is-large mb-5">
+        <div class="card">
+            <h1 class="card-header-title" id="dolar">
+                <strong>Dolar (Blue)</strong>
+            </h1>
+            <div class="card-content">
+                <strong>
+                  <p class="has-text-primary-dark" id="dolar-value">
+                    $
+                  </p>
+                </strong>
+            </div>
+        </div>
+
+      <div class="card mt-5">
+        <h2 class="card-header-title">
+          <strong style="color: crimson; font-style: italic;">False</strong> Dolar ("Oficial")
+            
+          </h2>
+          <div class="card-content">
+            <strong>
+              <p id="oficial-value" class="value has-text-primary-dark ">$</p>
+            </strong>
+          </div>
+      </div>
+    </div>
+
+    <div class="myRow" style="display: grid; place-items: center; width: 100%;">
+      <button style="margin: 0 auto;" class="button is-danger">Update values</button>
+    </div>
+  </section>
+
+</body>
+</html>
